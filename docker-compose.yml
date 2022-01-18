@@ -1,3 +1,4 @@
+version: "3"
 services:
   iut_service:
     container_name: iut_service
