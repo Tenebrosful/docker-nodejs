@@ -15,6 +15,11 @@
 - Consulter l'API (le service doit être lancé)
 `curl -i localhost:3333`
 
+- Pour supprimer un dossier verrouillé (appartenant à l'utilisateur root), modifier les droits :
+`sudo chown -R $USER:$USER <nom-du-dossier>`
+
+`sudo rm -rf <nom-du-dossier>`
+
 ## Adminer
 
 serveur = MYSQL_HOST (cf. ./service//env/)
