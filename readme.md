@@ -14,3 +14,22 @@
 
 - Consulter l'API (le service doit être lancé)
 `curl -i localhost:3333`
+
+## Adminer
+
+serveur = MYSQL_HOST (cf. ./service//env/)
+mot de passe = MYSQL_PASSWORD (.cf ./service/.env/)
+
+
+---
+
+__Alexandre Leroux__
+
+alex@sherpa.one
+sherpa#3890
+
+_Enseignant vacataire à l'Université de Lorraine_
+
+- IUT Nancy-Charlemagne (LP Ciasie)
+
+- Institut des Sciences du Digital, Management & Cognition (Masters Sciences Cognitives)
